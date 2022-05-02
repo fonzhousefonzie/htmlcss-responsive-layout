@@ -14,7 +14,7 @@ html{
 a{
     text-decoration: none;
     color: inherit;
-    display: block;
+    display: inline-block;
 }
 
 h1, h2, h3{
@@ -88,7 +88,6 @@ img{
     background-color: white;
     color: black;
     padding: 0.5rem 1rem;
-    max-width: fit-content;
 }
 
 .prim-btn{
@@ -205,6 +204,10 @@ nav img{
 
 .about-us{
     position: relative;
+}
+
+.about-us img{
+    border-radius: 50%;
 }
 
 @media only screen and (max-width: 992px) {
