@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -35,6 +37,7 @@ h3{
 
 p{
     line-height: 2rem;
+    padding-bottom: 1rem;
 }
 
 img{
@@ -156,6 +159,19 @@ img{
     color: white;
 }
 
+.c-ter{
+    color: #fdc15f;
+}
+
+.prim-link{
+    text-decoration: underline;
+}
+
+.sec-link{
+    text-decoration: underline;
+    color: #817dbe;
+}
+
 /* Header */
 
 header{
@@ -208,6 +224,21 @@ nav img{
 
 .about-us img{
     border-radius: 50%;
+}
+
+.about-us span{
+    font-size: 200px;
+    font-family: 'BIZ UDPMincho', serif;
+    color: var(--color-secondary);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* Footer */
+
+footer{
+    background: #333;
 }
 
 @media only screen and (max-width: 992px) {
